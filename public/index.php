@@ -3,6 +3,7 @@
 declare(strict_types = 1);
 
 use App\App;
+use App\Controllers\CurlController;
 use App\Router;
 use App\Controllers\HomeController;
 use App\Controllers\UserController;
@@ -21,6 +22,7 @@ $router->registerRoutesFromControllerAttributes(
     [
         HomeController::class,
         InvoiceController::class,
+        CurlController::class,
     ]
 );
 
