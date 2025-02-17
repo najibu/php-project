@@ -4,7 +4,13 @@
         "vlucas/phpdotenv": "^5.3",
         "psr/container": "^2.0",
         "symfony/mailer": "^6.0",
-        "doctrine/dbal": "^3.3"
+        "doctrine/dbal": "^3.2",
+        "doctrine/orm": "^2.11",
+        "symfony/cache": "^6.4",
+        "doctrine/annotations": "^1.0",
+        "doctrine/migrations": "^3.8",
+        "illuminate/database": "^11.42",
+        "illuminate/events": "^11.42"
     },
     "autoload": {
         "psr-4": {

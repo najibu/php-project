@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App;
 
 use App\Attributes\Route;
+use Illuminate\Container\Container;
 use App\Exceptions\RouteNotFoundException;
 
 class Router
