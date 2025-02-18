@@ -12,6 +12,7 @@ use App\Exceptions\RouteNotFoundException;
 use App\Contracts\EmailValidationInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Illuminate\Database\Capsule\Manager as Capsule;
+use App\Services\Emailable;
 
 class App
 {
@@ -44,7 +45,12 @@ class App
         $this->initDb($this->config->db);
 
         $this->container->bind(MailerInterface::class, fn() => new CustomMailer($this->config->mailer['dsn']));
-        $this->container->bind(EmailValidationInterface::class, fn() => new EmailValidationService($this->config->apiKeys['abstract_api_email_validation']));
+        $this->container->bind(
+            EmailValidationInterface::class,
+            fn() => new Emailable\EmailValidationService($this->config->apiKeys['emailable'])
+        );
+
+        // $this->container->bind(EmailValidationInterface::class, fn() => new EmailValidationService($this->config->apiKeys['abstract_api_email_validation']));
 
         return $this;
     }
