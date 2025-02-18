@@ -5098,3 +5098,71 @@ Warning: Undefined array key "DB_PASS" in /var/www/app/Config.php on line 21
 Warning: Undefined array key "DB_DATABASE" in /var/www/app/Config.php on line 22
 
 Parse error: syntax error, unexpected token "return", expecting "=>" in /var/www/app/App.php on line 47
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:50
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 50
+
+Parse error: syntax error, unexpected variable "$this", expecting ":" in /var/www/app/App.php on line 70
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:52
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 52
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:52
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 52
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
