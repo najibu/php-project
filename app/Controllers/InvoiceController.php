@@ -30,6 +30,8 @@ class InvoiceController
                ]
            )
            ->toArray();
+        
+        var_dump($invoices);
 
         return $this->twig->render('invoices/index.twig', ['invoices' => $invoices]);
     }

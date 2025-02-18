@@ -5166,3 +5166,99 @@ Stack trace:
 #0 /var/www/scripts/email.php(12): App\App->boot()
 #1 {main}
   thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
+
+Fatal error: Uncaught Error: Undefined constant "App\VIEW_PATH" in /var/www/app/App.php:51
+Stack trace:
+#0 /var/www/scripts/email.php(12): App\App->boot()
+#1 {main}
+  thrown in /var/www/app/App.php on line 51
