@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace App;
 
 use App\Attributes\Route;
-use Illuminate\Container\Container;
 use App\Exceptions\RouteNotFoundException;
+use Illuminate\Container\Container;
 
 class Router
 {
@@ -16,7 +16,7 @@ class Router
     {
     }
 
-    public function registerRoutesFromControllerAttributes(array $controllers)
+    public function registerRoutesFromControllerAttributes(array $controllers): void
     {
         foreach($controllers as $controller) {
             $reflectionController = new \ReflectionClass($controller);

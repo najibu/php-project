@@ -9,12 +9,12 @@
         "symfony/cache": "^6.4",
         "doctrine/annotations": "^1.0",
         "doctrine/migrations": "^3.8",
-        "illuminate/database": "^11.42",
-        "illuminate/events": "^11.42",
         "ext-curl": "*",
         "guzzlehttp/guzzle": "^7.9",
         "twig/twig": "^3.20",
-        "twig/intl-extra": "^3.20"
+        "twig/intl-extra": "^3.20",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7"
     },
     "autoload": {
         "psr-4": {
