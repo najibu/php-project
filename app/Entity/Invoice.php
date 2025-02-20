@@ -26,8 +26,8 @@ class Invoice
     #[Column, GeneratedValue]
     private int $id;
 
-    #[Column(type: Types::DECIMAL, precision: 10, scale: 2)]
-    private float $amount;
+    #[Column(type: Types::BIGINT)]
+    private int $amount;
 
     #[Column(name: 'invoice_number', length: 255)]
     private string $invoiceNumber;
