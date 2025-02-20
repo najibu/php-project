@@ -21,6 +21,7 @@ class Config
                 'dbname'   => $env['DB_DATABASE'],
                 'driver'   => $env['DB_DRIVER'] ?? 'pdo_mysql',
             ],
+            'environment' => $env['APP_ENVIRONMENT'] ?? 'production',
         ];
     }
 
