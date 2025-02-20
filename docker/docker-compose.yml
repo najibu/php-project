@@ -14,6 +14,8 @@ services:
     working_dir: /var/www/
     volumes:
       - ../:/var/www
+    depends_on:
+      - db
   nginx:
     image: nginx:1.19-alpine
     container_name: programwithgio-nginx
@@ -30,6 +32,7 @@ services:
       - ./storage/mysql:/var/lib/mysql
     restart: always
     environment:
+      MYSQL_DATABASE: mydb
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - "33061:33061"
+      - "33062:3306"

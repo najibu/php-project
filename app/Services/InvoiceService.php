@@ -12,6 +12,7 @@ class InvoiceService
 {
     public function __construct(private EntityManager $em)
     {
+        $em->getRepository(Invoice::class)->findAll();
     }
 
     public function getPaidInvoices(): array
